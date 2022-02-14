@@ -1,4 +1,5 @@
-export default (state, action) => {
+// export default (state, action) => {
+const Reducer = (state, action) => {
     switch (action.type) {
 
         case 'ADD-TASK':
@@ -42,3 +43,4 @@ export default (state, action) => {
 
     }
 }
+export default Reducer

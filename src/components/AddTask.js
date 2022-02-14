@@ -5,7 +5,6 @@ export const AddTask = () => {
     const [task, addTask] = useState('')
     const { insertTask } = useContext(GlobalContext)
     const { searchTask } = useContext(GlobalContext)
-    const { displayAlllist } = useContext(GlobalContext)
     const [searchKey, setSearchKey] = useState('')
     const { tasklist } = useContext(GlobalContext)
 
